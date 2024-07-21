@@ -20,14 +20,10 @@
 - **Time Complexity** : How much time does it take to execute an algorithm.
 - **Space Complexity** : How much space does it take to execute an algorithm.
 
-## Visualization of Time Complexities
-+-----+    +---------+    +-----+    +-----------+    +--------+    +--------+    +-------+
-| O(1)| -> | O(log n)| -> | O(n) | -> | O(n log n)| -> | O(n^2) | -> | O(2^n) | -> | O(n!) |
-+-----+    +---------+    +-----+    +-----------+    +--------+    +--------+    +-------+
 
 ### Time Complexity
 
-Time complexity is a measure of the amount of time an algorithm takes to complete as a function of the length of the input.
+Time complexity is a computational complexity that describes the amount of time it takes to run an algorithm as a function of the size of the input. It gives an estimate of the running time of an algorithm based on the number of basic operations executed.
 
 **Steps to Determine Time Complexity:**
 1. **Identify Basic Operations**: Find the basic operations in the algorithm (e.g., comparisons, assignments).
@@ -66,6 +62,11 @@ def linear_search(arr, target):
 - **Big O Notation**: It is used to describe the worst-case scenario of an algorithm's**
 - **Big Omega Notation**: It is used to describe the best-case scenario of an algorithm's**
 - **Big Theta Notation**: It is used to describe the average-case scenario of an algorithm's**
+
+## Visualization of Complexities
++-----+    +---------+    +-----+    +-----------+    +--------+    +--------+    +-------+
+| O(1)| -> | O(log n)| -> | O(n) | -> | O(n log n)| -> | O(n^2) | -> | O(2^n) | -> | O(n!) |
++-----+    +---------+    +-----+    +-----------+    +--------+    +--------+    +-------+
 
 ## basic example of showcase time and space complexity
 # Finding the Maximum Element in an Array

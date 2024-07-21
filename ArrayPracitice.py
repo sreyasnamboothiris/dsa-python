@@ -54,3 +54,27 @@ def targetright(array,target):
       right -= 1
   return array
 print(targetright(number,6))
+
+
+# Problem 3
+"""Given an array of integers, 
+find the maximum and minimum elements in the array."""
+
+array = [3,5,7,2,8,1,4]
+def max_and_min(array):
+    max = array[0]
+    min = array[0]
+    for i in array:
+        if i > max:
+            max = i
+        elif i < min:
+            min = i
+        else:
+            pass
+    return max,min
+
+print(max_and_min(array))
+
+array.insert(2,89)
+print(array)
+
