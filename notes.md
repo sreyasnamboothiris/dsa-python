@@ -83,3 +83,80 @@ def find_max(arr):
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
+# Data Structures
+
+## 1. Array
+An array is a linear data structure that stores a collection of elements of the same data type.
+
+### Operations on Array:
+- **Traversal:** Iterating through the elements of an array.
+- **Insertion:** Adding an element to the array at a specific index.
+- **Deletion:** Removing an element from the array at a specific index.
+- **Searching:** Finding an element in the array by its value or index.
+
+### Types of Arrays:
+- **One-dimensional array:** A simple array with a single dimension.
+- **Multidimensional array:** An array with multiple dimensions, such as a matrix.
+
+### Applications of Array:
+- Storing data in a sequential manner.
+- Implementing queues, stacks, and other data structures.
+- Representing matrices and tables.
+
+## 2. String
+A string is a sequence of characters, typically used to represent text. It allows for the manipulation and processing of textual data in computer programs.
+
+### Operations on String:
+- **Concatenation:** Joining two strings together.
+- **Comparison:** Comparing two strings lexicographically.
+- **Substring extraction:** Extracting a substring from a string.
+- **Search:** Searching for a substring within a string.
+- **Modification:** Changing or replacing characters within a string.
+
+### Applications of String:
+- Text processing.
+- Pattern matching.
+- Data validation.
+- Database management.
+
+## 3. Linked List
+A linked list is a linear data structure that stores data in nodes, which are connected by pointers. Unlike arrays, linked lists are not stored in contiguous memory locations.
+
+### Characteristics of Linked List:
+- **Dynamic:** Linked lists can be easily resized by adding or removing nodes.
+- **Non-contiguous:** Nodes are stored in random memory locations and connected by pointers.
+- **Sequential access:** Nodes can only be accessed sequentially, starting from the head of the list.
+
+### Operations on Linked List:
+- **Creation:** Creating a new linked list or adding a new node to an existing list.
+- **Traversal:** Iterating through the list and accessing each node.
+- **Insertion:** Adding a new node at a specific position in the list.
+- **Deletion:** Removing a node from the list.
+- **Search:** Finding a node with a specific value in the list.
+
+### Types of Linked List:
+- **Singly Linked List:** Each node points to the next node in the list.
+- **Doubly Linked List:** Each node points to both the next and previous nodes in the list.
+- **Circular Linked List:** The last node points back to the first node, forming a circular loop.
+
+### Applications of Linked List:
+- Implementing queues and stacks.
+- Representing graphs and trees.
+- Maintaining ordered data.
+- Memory management.
+
+## Difference Between Array and Linked List
+
+### Array:
+- **Data Structure:** Contiguous.
+- **Memory Allocation:** Typically allocated to the whole array.
+- **Insertion/Deletion:** Inefficient.
+- **Access:** Random.
+
+### Linked List:
+- **Data Structure:** Non-contiguous.
+- **Memory Allocation:** Typically allocated one by one to individual elements.
+- **Insertion/Deletion:** Efficient.
+- **Access:** Sequential.
+
+
