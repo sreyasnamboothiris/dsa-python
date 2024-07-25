@@ -134,6 +134,9 @@ A linked list is a linear data structure that stores data in nodes, which are co
 - **Deletion:** Removing a node from the list.
 - **Search:** Finding a node with a specific value in the list.
 
+### Related Files
+- [SingleLinkedList Operations](https://github.com/seyass/dsa-python/blob/main/operations/singlelinkedlist.py)
+
 ### Types of Linked List:
 - **Singly Linked List:** Each node points to the next node in the list.
 - **Doubly Linked List:** Each node points to both the next and previous nodes in the list.
