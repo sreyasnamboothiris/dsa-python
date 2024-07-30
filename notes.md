@@ -2,21 +2,21 @@
 
 ## Introduction
 
-### Data Strucures
+### Data Structures
 - : Organizing the data in memory.
 
 ### Algorithms
 - : A set of instructions to solve a problem.
 
-## Characters of alogorithms
+## Characters of algorithms
 - **Input**
 - **Output**
 - **Unambiguity**
 - **Finiteness**
 - **Effectiveness**
-- **Language independend**
+- **Language independent**
 
-### Complexity analyasis
+### Complexity analysis
 - **Time Complexity** : How much time does it take to execute an algorithm.
 - **Space Complexity** : How much space does it take to execute an algorithm.
 

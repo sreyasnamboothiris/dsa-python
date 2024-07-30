@@ -15,9 +15,7 @@ def bubble_sort(array, reverse=False):
                     array[j], array[j + 1] = array[j + 1], array[j]
     return array
 
-
 print(bubble_sort(array))
-
 
 def bubble_sort_sting(string, reverse=False):
     string = list(string)
@@ -35,15 +33,14 @@ def bubble_sort_sting(string, reverse=False):
         new_string += i
     return new_string
 
-
-print(bubble_sort_sting('sreyas'))
-
+print(bubble_sort_sting('seras'))
 
 class Node:
 
     def __init__(self, data):
         self.data = data
         self.ne
+
 
 class LinkedList:
 

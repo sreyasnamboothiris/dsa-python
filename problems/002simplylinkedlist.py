@@ -42,3 +42,7 @@ if __name__ == "__main__":
     ll.append(4)
     data = n_th_node_end(ll, 2)
     print(f"The 2nd node from the end is: {data}")
+
+
+
+
