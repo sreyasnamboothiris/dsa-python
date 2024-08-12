@@ -1,3 +1,5 @@
+# Queue using linked list
+
 class Node:
 
     def __init__(self, data):
@@ -19,7 +21,7 @@ class Queue:
             print(current_node.data)
             current_node = current_node.next
 
-    def enqueue(self,data):
+    def enqueue(self, data):
         node = Node(data)
         if self.rear is None:
             self.front = self.rear = node
@@ -38,17 +40,19 @@ class Queue:
             self.rear = None
         return val
 
-
     def peek(self):
         return self.front.data
 
 
-# queue = Queue()
-# queue.enqueue(1)
-# queue.enqueue(2)
-# queue.display()
-# queue.dequeue()
-# queue.display()
+queue = Queue()
+queue.enqueue(1)
+queue.enqueue(2)
+queue.display()
+queue.dequeue()
+queue.display()
+
+
+# Queue using Stack(array)
 
 class QueueUsingStack:
 
@@ -56,7 +60,7 @@ class QueueUsingStack:
         self.stack_1 = []
         self.stack_2 = []
 
-    def enqueue(self,data):
+    def enqueue(self, data):
         self.stack_1.append(data)
 
     def peek(self):
@@ -74,22 +78,24 @@ class QueueUsingStack:
         return self.stack_2.pop()
 
 
-# qu = QueueUsingStack()
-#
-# qu.enqueue(1)
-# qu.enqueue(2)
-# qu.enqueue(3)
-# qu.enqueue(4)
-# print(qu.peek())
-# j = qu.pop()
-# print(j)
-# print(qu.peek())
-# print("#############################")
-# qu.enqueue(5)
-# print(qu.peek())
-# print(qu.pop())
-# qu.enqueue(6)
-# print(qu.pop())
-# qu.enqueue(7)
-# print(qu.pop())
-# print(qu.pop())
+qu = QueueUsingStack()
+
+qu.enqueue(1)
+qu.enqueue(2)
+qu.enqueue(3)
+qu.enqueue(4)
+print(qu.peek())
+j = qu.pop()
+print(j)
+print(qu.peek())
+print("#############################")
+qu.enqueue(5)
+print(qu.peek())
+print(qu.pop())
+qu.enqueue(6)
+print(qu.pop())
+qu.enqueue(7)
+print(qu.pop())
+print(qu.pop())
+
+

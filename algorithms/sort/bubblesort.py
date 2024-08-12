@@ -41,7 +41,6 @@ class Node:
         self.data = data
         self.ne
 
-
 class LinkedList:
 
     def __int__(self):
