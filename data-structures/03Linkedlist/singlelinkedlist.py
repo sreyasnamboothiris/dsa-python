@@ -98,3 +98,4 @@ linkedlist = SLinkedList()
 linkedlist.add_node(1)
 linkedlist.push(2)
 linkedlist.display_data()
+

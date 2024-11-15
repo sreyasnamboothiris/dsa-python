@@ -17,3 +17,5 @@ def binary_search(array,key):
     return 'no element found'
 
 print(binary_search(arr,2))
+
+

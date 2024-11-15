@@ -57,23 +57,23 @@ class BinarySearchTree:
                 parrent_node = current_node
                 current_node = current_node.right
             else:
-                if current_node.left != None and current_node.right != None:
+                if current_node.left is not None and current_node.right is not None:
                     current_node.data = self.get_min_val(current_node.right)
                     self.delete_helper(current_node.data, current_node.right, current_node)
                 else:
-                    if parrent_node == None:
+                    if parrent_node is None:
                         if current_node.right is None:
                             self.root = current_node.left
                         else:
                             self.root = current_node.right
                     else:
                         if parrent_node.left == current_node:
-                            if current_node.right == None:
+                            if current_node.right is None:
                                 parrent_node.left = current_node.left
                             else:
                                 parrent_node.left = current_node.right
                         else:
-                            if current_node.right == None:
+                            if current_node.right is None:
                                 parrent_node.right = current_node.left
                             else:
                                 parrent_node.right = current_node.right

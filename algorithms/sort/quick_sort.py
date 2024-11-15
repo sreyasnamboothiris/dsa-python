@@ -1,4 +1,4 @@
-array = [9, 33, 21, 47, 5, 9, 13, 99, 76]
+arr = [9, 33, 21, 47, 5, 9, 13, 99, 76]
 
 
 def quick_sort(array):
@@ -18,7 +18,7 @@ def sort(array, start, end):
 
     while left <= right:
 
-        if array[left] > array[pivot] and array[right] < array[pivot]:
+        if array[left] > array[pivot] > array[right]:
             array[left], array[right] = array[right], array[left]
 
         if array[left] <= array[pivot]:
@@ -32,5 +32,7 @@ def sort(array, start, end):
     sort(array, right + 1, end)
 
 
-quick_sort(array)
-print(array)
+quick_sort(arr)
+print(arr)
+
+

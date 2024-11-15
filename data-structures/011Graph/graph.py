@@ -56,6 +56,8 @@ gr.insert('B', 'E')
 gr.insert('C', 'F')
 gr.display()
 gr.dfs('A')
+gr.bfs('B')
+
 
 
 

@@ -1,32 +1,22 @@
 arr = ["apple", "orange", "banana", "grape", "cherry"]
 
-i = 1
-
 
 def insertion_sort(array):
     for i in range(len(array)):
-        key = arr[i]
-        j = i - 1
-        while j >= 0 and arr[j] > key:
-            arr[j + 1] = arr[j]
-            j -= 1
-        arr[j + 1] = key
-
-    return array
-
-
-print(insertion_sort(arr))
-
-
-def insertion_sort_strings(array):
-    for i in range(1, len(array)):
-        j = i - 1
         key = array[i]
-        while j <= 0 and key < array[j]:
+        j = i - 1
+        while j >= 0 and array[j] > key:
             array[j + 1] = array[j]
             j -= 1
         array[j + 1] = key
+
     return array
+
+
+
+
+print(insertion_sort([3,2,1,5,6,4,3,2]))
+
 
 
 class Node:
@@ -66,4 +56,5 @@ class LinkedList:
             print('there is no data')
             return
 
-
+k = [(',',{ 56 }),({76},)]
+print(k)
